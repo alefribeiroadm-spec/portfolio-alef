@@ -154,6 +154,8 @@ section{padding:110px 0;position:relative;}
 }
 .link-arrow::after{content:"→";transition:transform .2s;}
 .link-arrow:hover{color:var(--text);border-bottom-color:var(--amber);gap:12px;}
+.case__links{display:flex;flex-wrap:wrap;gap:12px 26px;align-items:baseline;margin-top:26px;}
+.case__links .link-arrow{margin-top:0;}
 
 /* ---------------- HERO ---------------- */
 .hero{padding:150px 0 0;overflow:hidden;}
@@ -254,6 +256,11 @@ section{padding:110px 0;position:relative;}
 }
 .card h3{font-size:22px;margin-bottom:14px;line-height:1.2;}
 .card p{color:var(--dim);font-size:15px;}
+.card__proof{margin-top:14px;font-size:13.5px;}
+.card__proof a{
+  color:var(--amber);border-bottom:1px solid transparent;transition:border-color .2s,color .2s;
+}
+.card__proof a:hover{border-bottom-color:var(--amber);color:var(--text);}
 
 /* ---------------- PORTFÓLIO ---------------- */
 .portfolio{padding-bottom:40px;}
