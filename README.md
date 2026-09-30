@@ -54,13 +54,26 @@ Um em Origo, dois em DJ Alef. Jogue as imagens em `assets/img/` e troque cada
 
 ### 3. Imagem de compartilhamento
 
-`assets/img/og.jpg` já existe. Depois do deploy, edite as duas `<meta>` no topo do
-`index.html` trocando `https://alefribeiro.vercel.app/` pela URL real — redes sociais
-não leem caminho relativo.
+Pronta em `assets/img/og.jpg`, e as `<meta>` já apontam para a URL publicada.
+Só precisa mexer nisso se o endereço do site mudar.
 
 ---
 
-## Deploy
+## No ar
+
+**<https://alefribeiroadm-spec.github.io/portfolio-alef/>**
+
+Publicado por GitHub Pages a partir do branch `main`. Para atualizar:
+
+```bash
+git add -A && git commit -m "descrição da mudança" && git push
+```
+
+Em cerca de um minuto o site reflete a alteração.
+
+---
+
+## Outras opções de deploy
 
 ### Opção A — Vercel (mais rápido, recomendado)
 
