@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alef Ribeiro — Criação Digital, Design, IA Generativa e Vídeo</title>
+<meta name="description" content="Criador multidisciplinar: identidade visual, vídeo, IA generativa aplicada, roteiro e copy. Fundador da Origo, estúdio de criação assistida por IA. Cariacica-ES, disponível para trabalho 100% remoto.">
+<meta name="author" content="Alef Ribeiro">
+<meta name="theme-color" content="#12100D">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Alef Ribeiro — Criação Digital, Design, IA Generativa e Vídeo">
+<meta property="og:description" content="Criador multidisciplinar. Design, vídeo, IA generativa e texto na mesma pessoa. Fundador da Origo. Disponível para trabalho 100% remoto.">
+<!-- Depois do deploy, troque as 2 linhas abaixo pela URL real do site.
+     Facebook/WhatsApp/LinkedIn não leem caminho relativo — precisa ser absoluto. -->
+<meta property="og:url" content="https://alefribeiro.vercel.app/">
+<meta property="og:image" content="https://alefribeiro.vercel.app/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preload" href="assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<!-- marca que há JS: sem isso, nada que depende de animação fica escondido -->
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="nav__brand" href="#inicio" aria-label="Alef Ribeiro — início">
+      <span class="nav__mark">AR</span>
+      <span class="nav__name">Alef Ribeiro</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#entregas">O que eu entrego</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#formacao">Formação</a>
+      <a class="nav__cta" href="#contato">Contato</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__progress" id="navProgress" aria-hidden="true"></div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="container hero__inner">
+
+      <div class="hero__text">
+        <p class="eyebrow">Cariacica · Espírito Santo · 100% remoto</p>
+        <h1 class="hero__title">
+          Alef<br>Ribeiro
+        </h1>
+        <p class="hero__tagline">
+          Criação&nbsp;Digital <span aria-hidden="true">·</span> Design <span aria-hidden="true">·</span>
+          IA&nbsp;Generativa <span aria-hidden="true">·</span> Vídeo
+        </p>
+        <p class="hero__lead">
+          Domínio de linguagem — roteiro, copy, revisão, narrativa — unido à produção visual
+          e ao uso avançado de IA generativa. Design, vídeo e texto saindo da mesma cabeça,
+          sem passar por três fornecedores.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#contato">Falar comigo</a>
+          <a class="btn btn--ghost" href="#portfolio">Ver o trabalho</a>
+        </div>
+        <ul class="hero__meta">
+          <li><strong>10+</strong><span>anos entre comunicação, vendas e educação</span></li>
+          <li><strong>2</strong><span>projetos autorais em operação: Origo e DJ Alef</span></li>
+          <li><strong>3</strong><span>anos de pesquisa científica com bolsa (CNPq · FAPES)</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__portrait">
+        <!-- SLOT DE FOTO — troque a div .slot por: <img src="assets/img/alef.jpg" alt="Alef Ribeiro"> -->
+        <div class="slot slot--portrait" data-slot="foto de perfil">
+          <div class="slot__body">
+            <span class="slot__tag">Espaço reservado</span>
+            <p class="slot__label">Retrato editorial</p>
+            <p class="slot__hint">Salve como <code>assets/img/alef.jpg</code> — vertical 4:5, luz quente</p>
+          </div>
+        </div>
+        <p class="hero__caption">Fundador da Origo · projeto autoral DJ Alef</p>
+      </div>
+
+    </div>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Identidade visual</span><i>·</i><span>Edição de vídeo</span><i>·</i><span>IA generativa</span><i>·</i>
+        <span>Roteiro e copy</span><i>·</i><span>Social media</span><i>·</i><span>Sites e automação</span><i>·</i>
+        <span>Produção musical</span><i>·</i>
+        <span>Identidade visual</span><i>·</i><span>Edição de vídeo</span><i>·</i><span>IA generativa</span><i>·</i>
+        <span>Roteiro e copy</span><i>·</i><span>Social media</span><i>·</i><span>Sites e automação</span><i>·</i>
+        <span>Produção musical</span><i>·</i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-num">01</span>
+        <h2 class="sec-title">Sobre</h2>
+      </div>
+
+      <div class="sobre__grid">
+        <div class="sobre__main">
+          <p class="lead">
+            Tenho 30 anos e mais de dez de trajetória entre comunicação, vendas e educação.
+            Hoje trabalho integralmente com produção criativa digital.
+          </p>
+          <p>
+            Sou fundador da <strong>Origo</strong>, estúdio de criação assistida por IA, e toco o
+            <strong>DJ Alef</strong>, projeto autoral de música e marca pessoal que uso também como
+            laboratório de produção. Formado em Letras pelo IFES, o que me deu um domínio de linguagem
+            que quase não aparece junto de produção visual: escrevo o roteiro, dirijo a geração,
+            edito e reviso o texto final.
+          </p>
+          <p>
+            Na prática isso significa entregar uma peça inteira sem intermediário — do briefing
+            ao arquivo final, com processo padronizado e prazo curto. Trabalho de forma remota
+            e assíncrona, com autonomia total.
+          </p>
+        </div>
+
+        <aside class="sobre__side">
+          <h3 class="side__title">Ferramentas</h3>
+          <ul class="chips">
+            <li>Canva (avançado)</li><li>Adobe</li><li>CapCut</li><li>Google Flow</li>
+            <li>Gemini / Nano Banana</li><li>Omni</li><li>FL Studio</li>
+            <li>Claude Code</li><li>Pacote Office</li>
+          </ul>
+          <h3 class="side__title">Disponibilidade</h3>
+          <p class="side__text">Trabalho 100% remoto, projeto pontual ou contínuo.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ENTREGAS ============ -->
+  <section class="entregas" id="entregas">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-num">02</span>
+        <h2 class="sec-title">O que eu entrego</h2>
+        <p class="sec-sub">Sete frentes que costumam exigir três profissionais diferentes.</p>
+      </div>
+
+      <ul class="cards">
+        <li class="card reveal">
+          <span class="card__num">01</span>
+          <h3>Identidade visual e peças gráficas</h3>
+          <p>Logo, flyer, capa, carrossel, apresentação, banner e papelaria digital. Canva em nível avançado — brand kits e templates —, Adobe e Pacote Office.</p>
+        </li>
+        <li class="card reveal">
+          <span class="card__num">02</span>
+          <h3>Vídeo e edição</h3>
+          <p>Corte vertical para Reels, TikTok e Shorts, legendagem, aftermovie, teaser. Ritmo de edição casado com a música.</p>
+        </li>
+        <li class="card card--wide reveal">
+          <span class="card__num">03</span>
+          <h3>IA generativa aplicada</h3>
+          <p>Geração e direção de imagem e vídeo (Google Flow, Omni, Gemini/Nano&nbsp;Banana), engenharia de prompt, upscale, correção de rosto por referência e fluxos de produção em série.</p>
+        </li>
+        <li class="card reveal">
+          <span class="card__num">04</span>
+          <h3>Texto e roteiro</h3>
+          <p>Copywriting, legenda, roteiro audiovisual, revisão e norma culta — formação em Letras por trás de cada linha.</p>
+        </li>
+        <li class="card reveal">
+          <span class="card__num">05</span>
+          <h3>Web e automação</h3>
+          <p>Criação de sites e landing pages, automação de tarefas e desenvolvimento assistido com Claude Code.</p>
+        </li>
+        <li class="card reveal">
+          <span class="card__num">06</span>
+          <h3>Social media e conteúdo</h3>
+          <p>Calendário editorial, pilares de conteúdo, produção em lote e adaptação de uma peça para múltiplos formatos.</p>
+        </li>
+        <li class="card reveal">
+          <span class="card__num">07</span>
+          <h3>Áudio</h3>
+          <p>Produção e edição musical em FL Studio, trilha e sincronia entre som e imagem.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ PORTFÓLIO ============ -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-num">03</span>
+        <h2 class="sec-title">Portfólio</h2>
+        <p class="sec-sub">Dois projetos em operação hoje.</p>
+      </div>
+    </div>
+
+    <!-- CASE 1 -->
+    <article class="case">
+      <div class="container case__inner">
+        <div class="case__text">
+          <p class="case__kicker">Estudo de caso 01 — atual</p>
+          <h3 class="case__title">Origo</h3>
+          <p class="case__role">Estúdio criativo de IA · Fundador e diretor criativo</p>
+          <p>
+            Identidade visual e peças gráficas para clientes de música, eventos e serviços.
+            Produção de vídeo curto para Instagram, TikTok e YouTube: conceito, roteiro,
+            geração por IA, edição e finalização.
+          </p>
+          <ul class="case__facts">
+            <li><strong>Briefing estruturado</strong> para todo projeto</li>
+            <li><strong>Entrega em até 3 dias úteis</strong></li>
+            <li><strong>Uma rodada de ajuste</strong> inclusa</li>
+            <li><strong>Operação 100% remota</strong> e assíncrona</li>
+          </ul>
+          <a class="link-arrow" href="https://instagram.com/origoestudiobr" target="_blank" rel="noopener">@origoestudiobr</a>
+        </div>
+
+        <div class="case__media">
+          <figure class="media reveal">
+            <video class="media__video" data-src="assets/video/samba-kgente.mp4" poster="assets/img/samba-kgente.jpg"
+                   muted loop playsinline preload="none" aria-label="Vídeo produzido para o cliente Samba K'Gente"></video>
+            <figcaption>Samba K'Gente — vídeo para redes</figcaption>
+          </figure>
+          <figure class="media reveal">
+            <video class="media__video" data-src="assets/video/garcons-brothers-filme.mp4" poster="assets/img/garcons-brothers-filme.jpg"
+                   muted loop playsinline preload="none" aria-label="Filme curto produzido para o cliente Garçons Brothers"></video>
+            <figcaption>Garçons Brothers — filme curto</figcaption>
+          </figure>
+          <figure class="media reveal">
+            <video class="media__video" data-src="assets/video/cena-urbana.mp4" poster="assets/img/cena-urbana.jpg"
+                   muted loop playsinline preload="none" aria-label="Peça de vídeo de cena urbana"></video>
+            <figcaption>Cena urbana — peça de catálogo</figcaption>
+          </figure>
+          <div class="slot slot--media" data-slot="peças gráficas">
+            <div class="slot__body">
+              <span class="slot__tag">Espaço reservado</span>
+              <p class="slot__label">Peças gráficas</p>
+              <p class="slot__hint">Logo, flyer e carrossel de clientes — jogue os arquivos em <code>assets/img/</code></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CASE 2 -->
+    <article class="case case--alt">
+      <div class="container case__inner">
+        <div class="case__text">
+          <p class="case__kicker">Estudo de caso 02 — atual</p>
+          <h3 class="case__title">DJ Alef</h3>
+          <p class="case__role">Projeto autoral · Direção criativa e produção de conteúdo</p>
+          <p>
+            Construção completa de identidade de marca: logo, paleta, presskit, arte de
+            lançamento e padrão de feed. Produção musical autoral em FL Studio.
+          </p>
+          <p>
+            É também meu laboratório de testes de IA generativa aplicada a vídeo musical —
+            o que valido aqui, com alcance real, é o que entrego para cliente.
+          </p>
+          <a class="link-arrow" href="https://instagram.com/alef.beat" target="_blank" rel="noopener">@alef.beat</a>
+        </div>
+
+        <div class="case__media">
+          <figure class="media reveal">
+            <video class="media__video" data-src="assets/video/dj-alef-deep-house.mp4" poster="assets/img/dj-alef-deep-house.jpg"
+                   muted loop playsinline preload="none" aria-label="Vídeo musical deep house do projeto DJ Alef"></video>
+            <figcaption>Deep house — vídeo musical</figcaption>
+          </figure>
+          <figure class="media reveal">
+            <video class="media__video" data-src="assets/video/dj-alef-cacador.mp4" poster="assets/img/dj-alef-cacador.jpg"
+                   muted loop playsinline preload="none" aria-label="Vídeo musical Caçador do projeto DJ Alef"></video>
+            <figcaption>Caçador — vídeo musical</figcaption>
+          </figure>
+          <div class="slot slot--media" data-slot="identidade de marca">
+            <div class="slot__body">
+              <span class="slot__tag">Espaço reservado</span>
+              <p class="slot__label">Identidade de marca</p>
+              <p class="slot__hint">Logo, paleta, presskit e padrão de feed</p>
+            </div>
+          </div>
+          <div class="slot slot--media" data-slot="arte de lançamento">
+            <div class="slot__body">
+              <span class="slot__tag">Espaço reservado</span>
+              <p class="slot__label">Arte de lançamento</p>
+              <p class="slot__hint">Capas e artes de faixa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ EXPERIÊNCIA ============ -->
+  <section class="experiencia" id="experiencia">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-num">04</span>
+        <h2 class="sec-title">Experiência</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="tl reveal tl--now">
+          <span class="tl__when">Atual</span>
+          <div class="tl__body">
+            <h3>Fundador e Diretor Criativo</h3>
+            <p class="tl__org">Origo — estúdio criativo de IA</p>
+            <p>Direção criativa, produção e operação do estúdio: identidade visual, vídeo curto e processo de entrega padronizado.</p>
+          </div>
+        </li>
+        <li class="tl reveal tl--now">
+          <span class="tl__when">Atual</span>
+          <div class="tl__body">
+            <h3>Direção criativa e produção de conteúdo</h3>
+            <p class="tl__org">DJ Alef — projeto autoral</p>
+            <p>Marca, presskit, produção musical em FL Studio e conteúdo para redes.</p>
+          </div>
+        </li>
+        <li class="tl reveal">
+          <span class="tl__when">2024 — 2025</span>
+          <div class="tl__body">
+            <h3>Professor de Informática</h3>
+            <p class="tl__org">IFP</p>
+            <p>Módulos de Pacote Office e ferramentas digitais, com elaboração do material didático. Método próprio para traduzir tecnologia complexa em entrega simples, com autonomia total e sem supervisão.</p>
+          </div>
+        </li>
+        <li class="tl reveal">
+          <span class="tl__when">2015 — 2019</span>
+          <div class="tl__body">
+            <h3>Empreendedor — loja de streetwear própria</h3>
+            <p class="tl__org">Negócio próprio</p>
+            <p>Criação de marca, artes de divulgação, presença digital e construção de base de clientes e seguidores.</p>
+          </div>
+        </li>
+        <li class="tl reveal">
+          <span class="tl__when">2013 — 2021</span>
+          <div class="tl__body">
+            <h3>Vendas, atendimento e suporte técnico</h3>
+            <p class="tl__org">Wizard · RPM Informática · Casa &amp; Vídeo · Torcedor Esporte Clube · Junior do iPhone · Samsung</p>
+            <p>Liderança em ranking de vendas em três empresas diferentes.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ FORMAÇÃO ============ -->
+  <section class="formacao" id="formacao">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-num">05</span>
+        <h2 class="sec-title">Formação e destaques</h2>
+        <p class="sec-sub">A base acadêmica que sustenta o texto e o roteiro.</p>
+      </div>
+
+      <div class="form__grid">
+        <div class="form__col">
+          <h3 class="form__h">Formação</h3>
+          <ul class="form__list">
+            <li>
+              <strong>Licenciatura em Letras — Língua Portuguesa</strong>
+              <span>IFES · 2020 — 2023</span>
+            </li>
+            <li>
+              <strong>Pós-graduação em Língua Portuguesa e Literatura no Contexto Educacional</strong>
+              <span>UNINTER · 2024 — 2025</span>
+            </li>
+            <li>
+              <strong>Três anos de pesquisa científica com bolsa</strong>
+              <span>CNPq e FAPES/ES · 960h/ano · IFES</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form__col">
+          <h3 class="form__h">Publicações e destaques</h3>
+          <ul class="form__list">
+            <li>
+              <strong>Capítulo de livro publicado</strong>
+              <span>ALVES, A. R. “Lara de Lemos — Da Tortura”. In: <em>Poesia e Cárcere Político: Leituras e Análises</em>. São Carlos: Pedro e João Editores, 2023.</span>
+            </li>
+            <li>
+              <strong>Artigo no repositório institucional do IFES (2024)</strong>
+              <span>Com apresentações na UFRJ, na UFES e em três campi do IFES.</span>
+            </li>
+            <li>
+              <strong>Convite oficial da SEDU/ES</strong>
+              <span>Para conduzir aulão em evento do governo do estado.</span>
+            </li>
+          </ul>
+          <a class="link-arrow" href="http://lattes.cnpq.br/0927605254855635" target="_blank" rel="noopener">Currículo Lattes</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-num">06</span>
+        <h2 class="sec-title">Contato</h2>
+      </div>
+
+      <div class="contato__box">
+        <div class="contato__pitch">
+          <p class="contato__big">Me manda o briefing<br>que eu respondo com prazo.</p>
+          <p class="contato__sub">Cariacica — ES · disponível para trabalho 100% remoto.</p>
+        </div>
+
+        <div class="contato__links">
+          <a class="cline" href="https://wa.me/5527997656489" target="_blank" rel="noopener">
+            <span class="cline__k">WhatsApp</span>
+            <span class="cline__v">(27) 99765-6489</span>
+          </a>
+          <a class="cline" href="mailto:alefribeiroadm@gmail.com">
+            <span class="cline__k">E-mail</span>
+            <span class="cline__v">alefribeiroadm@gmail.com</span>
+          </a>
+          <a class="cline" href="https://instagram.com/alef.beat" target="_blank" rel="noopener">
+            <span class="cline__k">Instagram — DJ Alef</span>
+            <span class="cline__v">@alef.beat</span>
+          </a>
+          <a class="cline" href="https://instagram.com/origoestudiobr" target="_blank" rel="noopener">
+            <span class="cline__k">Instagram — Origo</span>
+            <span class="cline__v">@origoestudiobr</span>
+          </a>
+          <a class="cline" href="http://lattes.cnpq.br/0927605254855635" target="_blank" rel="noopener">
+            <span class="cline__k">Currículo Lattes</span>
+            <span class="cline__v">lattes.cnpq.br</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="container foot__inner">
+    <p>© <span id="ano">2026</span> Alef Ribeiro · Cariacica — ES</p>
+    <p class="foot__tag">Criação Digital · Design · IA Generativa · Vídeo</p>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alef Ribeiro",
+  "jobTitle": "Criador de conteúdo multidisciplinar — design, vídeo e IA generativa",
+  "email": "mailto:alefribeiroadm@gmail.com",
+  "telephone": "+5527997656489",
+  "address": { "@type": "PostalAddress", "addressLocality": "Cariacica", "addressRegion": "ES", "addressCountry": "BR" },
+  "alumniOf": ["Instituto Federal do Espírito Santo (IFES)", "UNINTER"],
+  "worksFor": { "@type": "Organization", "name": "Origo" },
+  "sameAs": [
+    "https://instagram.com/alef.beat",
+    "https://instagram.com/origoestudiobr",
+    "http://lattes.cnpq.br/0927605254855635"
+  ]
+}
+</script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
